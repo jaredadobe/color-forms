@@ -6,7 +6,7 @@
 
 Basic color styles for form elements on a light background.
 
-# Input Fields
+## Input Fields
 
 To style the color, background, and border styles for form fields, use the `.field-light` style.
 
