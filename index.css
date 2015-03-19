@@ -11,8 +11,8 @@
 
 .field-light:focus {
   outline: none;
-  border-color: var(--blue);
-  box-shadow: 0 0 2px color(var(--blue) alpha(.5));
+  border-color: var(--blue, blue);
+  box-shadow: 0 0 2px color(var(--blue, blue) alpha(.5));
 }
 
 .field-light:disabled {
@@ -25,19 +25,19 @@
 }
 
 .field-light:invalid {
-  border-color: var(--red);
+  border-color: var(--red, red);
 }
 
 .field-light.is-success {
-  border-color: var(--green);
+  border-color: var(--green, green);
 }
 
 .field-light.is-warning {
-  border-color: var(--yellow);
+  border-color: var(--yellow, yellow);
 }
 
 .field-light.is-error {
-  border-color: var(--red);
+  border-color: var(--red, red);
 }
 
 
@@ -53,25 +53,7 @@
 .radio-light:focus,
 .checkbox-light:focus {
   outline: none;
-  box-shadow: 0 0 2px color(var(--blue) alpha(.5));
-}
-
-:root {
-  --blue: #0076df;
-  --red: #f95020;
-  --green: #00cf26;
-  --yellow: #efcc00;
-  --dark-gray: #333;
-  --mid-gray: #777;
-  --light-gray: #ccc;
-  --lighter-gray: #eee;
-  --darken-1: rgba(0,0,0,.0625);
-  --darken-2: rgba(0,0,0,.125);
-  --darken-3: rgba(0,0,0,.25);
-  --darken-4: rgba(0,0,0,.5);
-  --border-color: var(--light-gray);
-  --border-width: 1px;
-  --border-radius: 3px;
+  box-shadow: 0 0 2px color(var(--blue, blue) alpha(.5));
 }
 
 
