@@ -1,5 +1,7 @@
 /* Basscss Color Forms */
 
+@import 'colors.css/myth/variables';
+
 .field-light {
   background-color: white;
   transition: box-shadow .2s ease;
@@ -11,8 +13,8 @@
 
 .field-light:focus {
   outline: none;
-  border-color: var(--blue, blue);
-  box-shadow: 0 0 2px color(var(--blue, blue) alpha(.5));
+  border-color: var(--blue);
+  box-shadow: 0 0 2px color(var(--blue) alpha(.5));
 }
 
 .field-light:disabled {
@@ -25,19 +27,19 @@
 }
 
 .field-light:invalid {
-  border-color: var(--red, red);
+  border-color: var(--red);
 }
 
 .field-light.is-success {
-  border-color: var(--green, green);
+  border-color: var(--green);
 }
 
 .field-light.is-warning {
-  border-color: var(--yellow, yellow);
+  border-color: var(--yellow);
 }
 
 .field-light.is-error {
-  border-color: var(--red, red);
+  border-color: var(--red);
 }
 
 
@@ -53,7 +55,7 @@
 .radio-light:focus,
 .checkbox-light:focus {
   outline: none;
-  box-shadow: 0 0 2px color(var(--blue, blue) alpha(.5));
+  box-shadow: 0 0 2px color(var(--blue) alpha(.5));
 }
 
 
