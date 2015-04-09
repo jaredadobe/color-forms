@@ -1,8 +1,3 @@
-# Basscss Color Forms
-
-<p class="hide">Form color styles module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
 
 Basic color styles for form elements on a light background.
 
