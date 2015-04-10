@@ -1,9 +1,10 @@
 
-Basic color styles for form elements on a light background.
+This module sets basic color styles for form elements on a light background.
 
 ## Input Fields
 
 To style the color, background, and border styles for form fields, use the `.field-light` style.
+This style works on text inputs, selects, and textareas.
 
 ```html
 <label>Input</label>
@@ -35,19 +36,5 @@ The `.field-light` style includes states for disabled and read-only fields, as w
 <input type="text" class="block full-width field-light is-warning">
 <label>Error</label>
 <input type="text" class="block full-width field-light is-error">
-```
-
-Style radio buttons and checkboxes with the `.radio-light` and `.checkbox-light` styles.
-These add focus states that are consistent with the other form elements.
-
-```html
-<label class="block">
-  <input type="checkbox" class="checkbox-light">
-  Checkbox
-</label>
-<label class="block">
-  <input type="radio" class="radio-light">
-  Radio
-</label>
 ```
 

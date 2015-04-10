@@ -14,12 +14,12 @@
 .field-light:focus {
   outline: none;
   border-color: var(--blue);
-  box-shadow: 0 0 2px color(var(--blue) alpha(.5));
+  box-shadow: 0 0 0 2px color(var(--blue) a(.5));
 }
 
 .field-light:disabled {
-  color: var(--mid-gray);
   background-color: var(--darken-2);
+  opacity: .5;
 }
 
 .field-light:read-only:not(select) {
@@ -41,21 +41,4 @@
 .field-light.is-error {
   border-color: var(--red);
 }
-
-
-.radio-light,
-.checkbox-light {
-  transition: box-shadow .2s ease;
-}
-
-.radio-light {
-  border-radius: 50%;
-}
-  
-.radio-light:focus,
-.checkbox-light:focus {
-  outline: none;
-  box-shadow: 0 0 2px color(var(--blue) alpha(.5));
-}
-
 
