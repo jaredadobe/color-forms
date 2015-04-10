@@ -1,7 +1,5 @@
 /* Basscss Color Forms */
 
-@import 'colors.css/myth/variables';
-
 .field-light {
   background-color: white;
   transition: box-shadow .2s ease;
@@ -41,4 +39,6 @@
 .field-light.is-error {
   border-color: var(--red);
 }
+
+@import 'colors.css/myth/variables';
 
