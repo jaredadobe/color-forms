@@ -4,7 +4,7 @@
   "description": "Form color styles module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-color-forms.git"
+    "url": "https://github.com/basscss/color-forms.git"
   },
   "keywords": [
     "CSS",
@@ -15,9 +15,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-color-forms/issues"
+    "url": "https://github.com/basscss/color-forms/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-color-forms",
+  "homepage": "https://github.com/basscss/color-forms",
   "dependencies": {
     "colors.css": "^2.2.0"
   }
