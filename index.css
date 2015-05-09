@@ -11,8 +11,8 @@
 
 .field-light:focus {
   outline: none;
-  border-color: var(--blue);
-  box-shadow: 0 0 0 2px color(var(--blue) a(.5));
+  border-color: var(--field-focus-color);
+  box-shadow: 0 0 0 2px color(var(--field-focus-color) a(.5));
 }
 
 .field-light:disabled {
@@ -24,21 +24,39 @@
   background-color: var(--darken-2);
 }
 
-.field-light:invalid {
-  border-color: var(--red);
-}
 
 .field-light.is-success {
-  border-color: var(--green);
+  border-color: var(--field-success-color);
+}
+
+.field-light.is-success:focus {
+  box-shadow: 0 0 0 2px color(var(--field-success-color) a(.5));
 }
 
 .field-light.is-warning {
-  border-color: var(--yellow);
+  border-color: var(--field-warning-color);
 }
 
-.field-light.is-error {
-  border-color: var(--red);
+.field-light.is-warning:focus {
+  box-shadow: 0 0 0 2px color(var(--field-warning-color) a(.5));
 }
+
+.field-light:invalid,
+.field-light.is-error {
+  border-color: var(--field-error-color);
+}
+
+.field-light.is-error:focus {
+  box-shadow: 0 0 0 2px color(var(--field-warning-color) a(.5));
+}
+
 
 @import 'basscss-defaults';
+
+:root {
+  --field-focus-color: var(--blue);
+  --field-success-color: var(--green);
+  --field-warning-color: var(--yellow);
+  --field-error-color: var(--red);
+}
 
