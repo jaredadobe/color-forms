@@ -47,7 +47,7 @@
 }
 
 .field-light.is-error:focus {
-  box-shadow: 0 0 0 2px color(var(--field-warning-color) a(.5));
+  box-shadow: 0 0 0 2px color(var(--field-error-color) a(.5));
 }
 
 
