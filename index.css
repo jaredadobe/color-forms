@@ -9,18 +9,21 @@
   border-radius: var(--border-radius);
 }
 
-.field-light:focus {
+.field-light:focus,
+.field-light.is-focused {
   outline: none;
   border-color: var(--field-focus-color);
   box-shadow: 0 0 0 2px color(var(--field-focus-color) a(.5));
 }
 
-.field-light:disabled {
+.field-light:disabled,
+.field-light.is-disabled {
   background-color: var(--darken-2);
   opacity: .5;
 }
 
-.field-light:read-only:not(select) {
+.field-light:read-only:not(select),
+.field.light.is-read-only {
   background-color: var(--darken-2);
 }
 
@@ -29,7 +32,8 @@
   border-color: var(--field-success-color);
 }
 
-.field-light.is-success:focus {
+.field-light.is-success:focus,
+.field-light.is-success.is-focused {
   box-shadow: 0 0 0 2px color(var(--field-success-color) a(.5));
 }
 
@@ -37,7 +41,8 @@
   border-color: var(--field-warning-color);
 }
 
-.field-light.is-warning:focus {
+.field-light.is-warning:focus,
+.field-light.is-warning.is-focused {
   box-shadow: 0 0 0 2px color(var(--field-warning-color) a(.5));
 }
 
@@ -46,7 +51,8 @@
   border-color: var(--field-error-color);
 }
 
-.field-light.is-error:focus {
+.field-light.is-error:focus,
+.field-light.is-error.is-focused {
   box-shadow: 0 0 0 2px color(var(--field-error-color) a(.5));
 }
 
@@ -59,4 +65,3 @@
   --field-warning-color: var(--yellow);
   --field-error-color: var(--red);
 }
-
