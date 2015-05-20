@@ -30,6 +30,12 @@ The `.field-light` style includes states for disabled and read-only fields, as w
 <input type="text" class="block full-width field-light" readonly value="This is read-only">
 <label>Required</label>
 <input type="text" class="block full-width field-light" required>
+<label>.is-focused</label>
+<input type="text" class="block full-width field-light is-focused">
+<label>.is-disabled</label>
+<input type="text" class="block full-width field-light is-disabled">
+<label>.is-read-only</label>
+<input type="text" class="block full-width field-light is-read-only">
 <label>Success</label>
 <input type="text" class="block full-width field-light is-success">
 <label>Warning</label>
