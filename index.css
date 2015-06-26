@@ -49,6 +49,8 @@
   border-color: var(--field-error-color);
 }
 
+.field:invalid:focus,
+.field:invalid.is-focused,
 .field.is-error:focus,
 .field.is-error.is-focused {
   box-shadow: 0 0 0 2px color(var(--field-error-color) a(.5));
